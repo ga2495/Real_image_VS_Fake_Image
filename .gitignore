@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Caching
+data/
+cache_train/
+cache_val/
+*.zip
+*.tar.gz
+*.tar
+*.docx
+
+# Models & Weights
+models/*
+!models/README.md
+!models/fdcsnet_v4_final.keras
+*.h5
+*.hdf5
+*.weights.h5
+stage*_weights.*
+checkpoint*
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db

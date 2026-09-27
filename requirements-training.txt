@@ -1,0 +1,8 @@
+# Training dependencies for FDCS-Net V4 (GPU supported)
+tensorflow>=2.15.0,<=2.21.0
+keras>=3.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+pillow>=9.5.0
+jupyter>=1.0.0

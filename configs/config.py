@@ -1,0 +1,31 @@
+# Image & Data processing
+IMG_SIZE = 256
+COLOR_MAP_SIZE = 128
+NOISE_SIGMA = 0.01
+QUANT_BITS = 4
+SUPPORTED_EXTENSIONS = ('.png', '.jpg', '.jpeg', '.bmp', '.gif')
+
+# Model
+FEATURE_DIM = 256
+
+# Training
+BATCH_SIZE = 32
+LEARNING_RATE = 1.5e-4
+VALIDATION_SPLIT = 0.2
+LABEL_SMOOTHING = 0.05
+WEIGHT_DECAY = 1e-4
+
+# 3-Stage Training Strategy
+STAGE1_EPOCHS = 12
+STAGE1_FREEZE_RATIO = 0.90
+STAGE2_EPOCHS = 10
+STAGE3_EPOCHS = 10
+STAGE3_FREEZE_RATIO = 0.70
+
+# Paths
+TRAIN_DIR = "data/train"
+TEST_DIR = "data/test"
+MODEL_SAVE_DIR = "models/"
+
+# Inference
+CLASSIFICATION_THRESHOLD = 0.8
